@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9D55F38126A644C9005AC3DE /* SnapPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D55F37F26A644C9005AC3DE /* SnapPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D55F38926A644EA005AC3DE /* SnapPageControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D55F38826A644EA005AC3DE /* SnapPageControll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D55F37C26A644C9005AC3DE /* SnapPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D55F37F26A644C9005AC3DE /* SnapPageControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SnapPageControl.h; sourceTree = "<group>"; };
 		9D55F38026A644C9005AC3DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D55F38826A644EA005AC3DE /* SnapPageControll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapPageControll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +48,19 @@
 		9D55F37E26A644C9005AC3DE /* SnapPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				9D55F38726A644DB005AC3DE /* Classes */,
 				9D55F37F26A644C9005AC3DE /* SnapPageControl.h */,
 				9D55F38026A644C9005AC3DE /* Info.plist */,
 			);
 			path = SnapPageControl;
+			sourceTree = "<group>";
+		};
+		9D55F38726A644DB005AC3DE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9D55F38826A644EA005AC3DE /* SnapPageControll.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,6 +105,7 @@
 				TargetAttributes = {
 					9D55F37B26A644C9005AC3DE = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -130,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D55F38926A644EA005AC3DE /* SnapPageControll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		9D55F38526A644C9005AC3DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lestad.SnapPageControl;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +299,7 @@
 		9D55F38626A644C9005AC3DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
