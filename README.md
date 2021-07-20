@@ -9,7 +9,7 @@ xCode 10
 
 <h2>Installation</h2>
 Cocoa Pods
-pod 'SnapPageControl', :git => 'https://github.com/MauroJuliano/DashButtonCustom.git'
+pod 'SnapPageControl', :git => 'https://github.com/MauroJuliano/SnapPageControl.git'
 
 <h2>Usage</h2>
 
