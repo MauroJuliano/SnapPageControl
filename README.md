@@ -20,7 +20,7 @@ Set the class of the UIView to SnapPageControll in your Storyboard or nib.
 
 Set a Scroll view, then: 
 
-![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/221189274_4020967638031404_2968492740878310713_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=xhFNNjY37XEAX8H1giM&_nc_oc=AQn5-5__ExZepliWeEdne3lGnfJDi3Dnr2qzEk2rgQV7Tzipw_atpldU-3ltXc3sE7EnTCEF0PfjMYKY8ocLzQbA&_nc_ht=scontent.fmgf1-1.fna&oh=caf492914b24ceb88f820c778f0d5b21&oe=60FB8697)
+![](https://scontent.fmgf1-1.fna.fbcdn.net/v/t39.30808-6/221189274_4020967638031404_2968492740878310713_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=aCAmxCorhDEAX_DFM1f&_nc_oc=AQl-zBjLxU2k4yORzbI2U9rB0JNrbWiaWxIU-AR8zFAo_D9kbkoHWd91msMiJs7r7J-2k0GFhXzr5lIgYUbdjxl0&_nc_ht=scontent.fmgf1-1.fna&oh=b445a7b8907bdfb408620dc768e6c743&oe=610D52D7)
 
 <h3> Obs: </h3>
 This pod was created for study purpose only
